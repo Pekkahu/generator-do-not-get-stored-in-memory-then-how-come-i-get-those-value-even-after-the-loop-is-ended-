@@ -186,7 +186,7 @@ class range(object)
 
 Process finished with exit code 0
 ```
-> ifyou have't found it out in upper code, here it is again too take look at the code.
+> if you have't found it out in upper code, here it is again too take look at the code.
 ```python
 
  |  __iter__(self, /)
