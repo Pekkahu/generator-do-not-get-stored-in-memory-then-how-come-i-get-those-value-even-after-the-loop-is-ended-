@@ -1,6 +1,6 @@
 # generator do not get stored in memory then how come i get those value even after the loop is ended
 A loop is created for generating a series of number
-```
+```python
 import ctypes
 
 g = [ ]
@@ -12,7 +12,7 @@ for item1 in range(10):
 >here my loops end but the only thing is stored is the location or the memory address not the number
 
 >checking the values at that memory address
-```
+```python
 for item in g:
     a = ctypes.cast(item, ctypes.py_object).value
     print(f'values at that memory address = {a}')
